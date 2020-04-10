@@ -14,4 +14,13 @@ public class hello {
     public void show2(){
         System.out.println("dfdfdfss");
     }
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
